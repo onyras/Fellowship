@@ -22,9 +22,11 @@ export function Header() {
                             Difference
                         </Link>
                     </div>
-                    <Button size="sm" variant="primary">
-                        Apply Now
-                    </Button>
+                    <Link href="https://niko96.typeform.com/to/M6FxhidU" target="_blank" rel="noopener noreferrer">
+                        <Button size="sm" variant="primary">
+                            Apply Now
+                        </Button>
+                    </Link>
                 </nav>
             </Container>
         </header>

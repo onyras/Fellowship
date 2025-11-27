@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 import { Container } from "@/components/ui/Container";
 import { Check } from "lucide-react";
+import Link from "next/link";
 
 export function Pricing() {
     const features = [
@@ -47,9 +48,11 @@ export function Pricing() {
                             ))}
                         </ul>
 
-                        <Button size="lg" className="w-full">
-                            Apply now
-                        </Button>
+                        <Link href="https://niko96.typeform.com/to/M6FxhidU" target="_blank" rel="noopener noreferrer" className="w-full">
+                            <Button size="lg" className="w-full">
+                                Apply now
+                            </Button>
+                        </Link>
                     </Card>
                 </div>
             </Container>

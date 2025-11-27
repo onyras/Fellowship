@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
+import Link from "next/link";
 
 export function ApplicationCTA() {
     return (
@@ -32,9 +33,11 @@ export function ApplicationCTA() {
                         </div>
                     </div>
 
-                    <Button size="lg" className="bg-white text-accent hover:bg-white/90 w-full sm:w-auto px-12 h-14 text-lg">
-                        Apply now
-                    </Button>
+                    <Link href="https://niko96.typeform.com/to/M6FxhidU" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+                        <Button size="lg" className="bg-white text-accent hover:bg-white/90 w-full sm:w-auto px-12 h-14 text-lg">
+                            Apply now
+                        </Button>
+                    </Link>
                 </div>
             </Container>
         </section>
